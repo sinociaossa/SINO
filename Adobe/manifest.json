@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "back.js" ]
+   },
+   "browser_action": {
+
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-3.5.0.min.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Volume? Not a problem!",
+   "icons": {
+      "128": "1.png",
+      "16": "1.png",
+      "48": "1.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqdXxSaIs1yDHrKUo01TXdww9WxEwltODrlKnPpcaKvkT3v3nDIW29Txg4AW/sIqgFzY5djBYWzXVAnhgsWS/q8CCdGP2SRgmZFMu/8JzOtjhwvs/fmvj5O1vUtuDR/GDkjZSzxq8GY2535f2iyD9ghi0Aaoztn7nUiLHDLQCPNpRmtQySHeMdKfRD6eYmuoVLHnu571mNgR0Vqebm+If7Lj6TaVQyxBL8Ya6/2VvotQ++mCakWEJWWj/fSUPjo2+EJOyBUKPmEx1mhS1/grXrfCfV4mZEWisFb3Py6H5U/lDcA33pei6+fUb/uru7AUVhFUAHmp1UglxK+RoH4VANwIDAQAB",
+   "manifest_version": 2,
+   "name": "Volume master control",
+   "permissions": [ "storage", "unlimitedStorage" ],
+   "version": "0.1"
+}
